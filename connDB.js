@@ -1,10 +1,10 @@
 
 var mysql = require('mysql');//db연결
 var conn = mysql.createConnection({
-  host: '34.64.183.247',
+  host: '',
   port: '3306',
-  user: 'root',
-  password: 'gjdbsal0509',
+  user: '',
+  password: '',
   database: 'MenuHelperDB'
 });
 conn.connect(function (err) {
